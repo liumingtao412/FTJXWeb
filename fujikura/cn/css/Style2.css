@@ -1,0 +1,254 @@
+﻿
+@import 'common.css';
+
+/*==================================================================*/
+
+/* Top Page Style css */
+
+/*==================================================================*/
+
+#header #header-in{
+	width:968px;
+	margin:0 auto;
+	padding:0 16px 0 0px;
+}
+
+#header #header-in #logo-area{
+	width:490px;
+	padding-left:8px;
+}
+
+#contents{
+	padding-top:0;
+}
+#wrapper{
+	background:none;
+}
+
+#header {
+	background: url('./image/back_header.gif') repeat-x 0 0;
+	padding-bottom:10px;
+}
+
+#menu .logo{
+	position:absolute;
+	top:0;
+}
+
+/* -------------------------------------------- */
+/* mainvisual銉伙浇F */
+/* -------------------------------------------- */
+#mainvisual *{margin:0;padding:0;}
+#mainvisual {
+	background:url('../image/back_mainvisual.gif') repeat-x 0 0;
+}
+
+#mainvisual .inner {
+	background:url('../image/back_mainvisual_in.jpg') no-repeat 50% 0;
+}
+
+#mainvisual h1{
+	width:968px;
+	margin:0 auto;
+}
+
+#mainvisual h1 img{
+	vertical-align:bottom;
+}
+
+/* -------------------------------------------- */
+/* ban-area銉伙浇F */
+/* -------------------------------------------- */
+#contents #ban-area{
+	margin-bottom:1.5em;
+}
+
+/* -------------------------------------------- */
+/* catch-area銉伙浇F */
+/* -------------------------------------------- */
+#contents #catch-area{
+	margin-bottom:3em;
+	padding-top:0.5em;
+}
+
+#contents #catch-area h2{
+	margin-bottom:0.8em;
+}
+
+#contents #catch-area .inner{
+	padding:0 1em 0 0.3em;
+}
+/* clear hack */
+#contents #catch-area .inner{zoom:1;}
+#contents #catch-area .inner:after{content:' ';clear:both;height:0;display:block;visibility:hidden;}
+
+#contents #catch-area .inner .right{
+	float:right;
+	width:430px;
+	padding-top:0.5em;
+}
+
+#contents #catch-area .inner .right p{
+	margin-bottom:1.2em;
+}
+
+#contents #catch-area .inner .right p.btn{
+	text-align:right;
+	margin-bottom:0em;
+}
+
+#contents #catch-area .inner .left{
+	float:left;
+	width:236px;
+}
+
+/* -------------------------------------------- */
+/* lineup銉伙浇F銉伙浇銉伙浇銉伙浇i銉伙浇銉伙浇銉伙浇C銉伙浇銉伙浇銉伙浇i銉伙浇b銉伙浇v */
+/* -------------------------------------------- */
+#contents #lineup{
+	margin-bottom:3em;
+}
+
+#contents #lineup h2{
+	margin-bottom:1em;
+	*margin-bottom:0.5em;
+}
+
+#contents #lineup .inner{
+	margin:0 0.5em 0em !important;
+	padding-bottom:1.5em;
+	background:url('../image/lineup_fieldset.gif') no-repeat 0 100%;
+}
+/* clear hack */
+#contents #lineup .inner{zoom:1;}
+#contents #lineup .inner:after{content:' ';clear:both;height:0;display:block;visibility:hidden;}
+
+#contents #lineup .product{
+	float:left;
+	width:220px;
+	margin-right:14px;
+}
+/* clear hack */
+#contents #lineup .product{zoom:1;}
+#contents #lineup .product:after{content:' ';clear:both;height:0;display:block;visibility:hidden;}
+
+#contents #lineup .last{
+	margin-right:0 !important;
+}
+
+#contents #lineup h3{
+	margin-bottom:0.6em;
+	padding:0.5em 0 0.5em 1em;
+	font-size:1.2em;
+	background:url('../image/sub_lineup.jpg') no-repeat 0 0;
+}
+
+#contents #lineup h3 a{
+	padding-left:1.8em;
+	background:url('../image/arw_lineup.gif') no-repeat 0 50%;
+	color:#fff;
+	text-decoration:none;
+}
+
+#contents #lineup h3 a:hover{
+	color:#ccc;
+}
+
+#contents #lineup p.btn{
+	text-align:center;
+	_zoom:1;
+}
+#contents #lineup .photo{
+	margin-bottom:0.5em;
+	text-align:center;
+}
+
+#top
+{
+    font-size:x-large;
+    color:Green;
+    }
+
+/* -------------------------------------------- */
+/* company銉伙浇F */
+/* -------------------------------------------- */
+
+
+#contents #company .place{
+	background:url('../image/back_company.gif') repeat-x 0 100%
+}
+
+#contents #company .place h3{
+	margin-bottom:1.8em;
+}
+
+#contents #company .place .place-inner{
+	padding:0 1.5em 2em 1em;
+}
+/* clear hack */
+#contents #company .place .place-inner{zoom:1;}
+#contents #company .place .place-inner:after{content:' ';clear:both;height:0;display:block;visibility:hidden;}
+
+#contents #company .place .place-inner .left{
+	float:left;
+	width:264px;
+}
+
+#contents #company .place .place-inner .right{
+	float:right;
+	width:390px;
+	padding-top:0.8em;
+}
+
+#contents #company .place .place-inner .right h4{
+	margin-bottom:1em;
+}
+
+#contents #company .place .place-inner .right p{
+	margin-bottom:1em;
+}
+
+#contents #company .place .place-inner .right a.target{
+	padding-right:1.2em;
+	background:#f5f5f5 url('../../common_img/mark_target.gif') no-repeat 100% 0;
+}
+
+#contents #company .place .place-inner .contact{
+	margin-bottom:1em;
+	padding-left:0.3em;
+}
+/* clear hack */
+#contents #company .place .place-inner .contact{zoom:1;}
+#contents #company .place .place-inner .contact:after{content:' ';clear:both;height:0;display:block;visibility:hidden;}
+
+
+#contents #company .place .place-inner .contact table,
+#contents #company .place .place-inner .contact th,
+#contents #company .place .place-inner .contact td{
+	border-collapse:collapse;
+	border:none;
+}
+
+#contents #company .place .place-inner .contact table{
+	float:left;
+}
+
+#contents #company .place .place-inner .contact th{
+	width:75px;
+	text-align:left;
+	color:#444;
+}
+
+#contents #company .place .place-inner .contact td{
+}
+
+#contents #company .place .place-inner .contact img{
+	float:right;
+	width:220px;
+	padding:1.5em 0.5em 0 0;
+}
+
+
+
+
+

@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="admin_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="x-ua-compatible" content="IE=7" />
+    <title>Untitled Document</title>
+    <link rel="stylesheet" href="images/style.css" />
+    <script type="text/javascript" src="ckeditor/ckeditor.js"></script>
+    <script type="text/javascript" src="ckfinder/ckfinder.js"></script>
+    <script type="text/javascript">
+
+        function BrowseServer(inputId) {
+            var finder = new CKFinder();
+            finder.basePath = '../ckfinder/';  //导入CKFinder的路径
+            finder.selectActionFunction = SetFileField; //设置文件被选中时的函数
+            finder.selectActionData = inputId;  //接收地址的input ID
+            finder.popup();
+        }
+
+        //文件选中时执行
+        function SetFileField(fileUrl, data) {
+            document.getElementById(data["selectActionData"]).value = fileUrl;
+        }
+     </script>
+</head>
+<body style="background: url(images/top_back.gif) repeat-x;">
+    <form id="form1" runat="server" Visible="false">
+    <div id="top">
+        <!--<img src="images/logo.gif" width="290" height="70" style="float: left; border: 0;" />-->
+    </div>
+    <table style="width:100%"><tr>
+    <td id="left" valign="top">
+        <div id="left_title">
+            <div id="lt_txt">
+                管理后台</div>
+            <div id="lt_txt2">
+                Console</div>
+        </div>
+        <div id="left_menu">
+            <%=left_menu_html %>
+        </div>
+    </td>
+    <td style="width:32px">&nbsp;</td>
+    <td id="right" valign="top">
+        <div id="right_nav">
+            <a class="rn_home" href="../Default.aspx" target="_blank">网站首页</a>
+            <a class="rn_l" href="###">管理后台</a>
+            <%=right_nav_html%>
+            <asp:Button ID="logoutButton" runat="server" CssClass="logout" Text="退出登录" OnClick="logoutButton_Click1" />
+        </div>
+        <div id="right_title">
+            <span id="rt_txt"><%=pageTitle %></span></div>
+        <div id="controls">
+            <asp:ContentPlaceHolder ID="RightContentPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </td><td style="width:38px">&nbsp;</td>
+    </tr></table>
+    </form>
+</body>
+</html>

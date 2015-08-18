@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+/*==================================================================*/
+
+/* menu css */
+
+/*==================================================================*/
+
+#menu *{margin:0;padding:0;}
+#menu{
+	float:left;
+	width:215px;
+}
+
+#menu a:hover img{
+	opacity:0.7;
+	filter: alpha(opacity=70);
+}
+
+/* -------------------------------------------- */
+/* logo：ロゴ */
+/* -------------------------------------------- */
+
+#menu .logo{
+	margin-bottom:1.8em;
+}
+
+#menu .logo a{
+	display:block;
+	width:139px;
+	height:106px;
+	background:url('../../common_img/header/mark.png') no-repeat 0 0;
+	text-indent:-9999px;
+	_text-indent:0;
+}
+
+#menu .logo a:hover img{
+	opacity:1;
+	filter: alpha(opacity=100);
+}
+
+/* -------------------------------------------- */
+/* contact：お問合せ */
+/* -------------------------------------------- */
+#menu .contact{
+	margin-bottom:1em;
+}
+
+/* -------------------------------------------- */
+/* iso：ISO */
+/* -------------------------------------------- */
+#menu .iso{
+	margin-bottom:1em;
+}
+
+/* -------------------------------------------- */
+/* kodawari：製品へのこだわり */
+/* -------------------------------------------- */
+#menu .kodawari{
+	margin-bottom:1em;
+}
+
+/* -------------------------------------------- */
+/* faq：よくあるご相談 */
+/* -------------------------------------------- */
+#menu .faq{
+	margin-bottom:1em;
+}
+
+/* -------------------------------------------- */
+/* lineup：製品ラインナップ */
+/* -------------------------------------------- */
+#menu .lineup{
+	margin-bottom:1em;
+	border:#bbb 1px solid;
+}
+
+#menu .lineup h4{
+}
+
+#menu .lineup h5{
+	padding:0.4em 0 0.4em 0.8em;
+	background:url('../../common_img/menu/sub_lineup.gif') no-repeat 0 0;
+	font-size:1em;
+}
+
+#menu .lineup h5 a{
+	padding-left:1.9em;
+	background:url('../../common_img/menu/arw_lineup_cat.gif') no-repeat 0 50%;
+	color:#aa0000;
+}
+
+#menu .lineup ul{
+	list-style:none;
+	margin-bottom:0.1em;
+}
+
+#menu .lineup li{
+	margin:0 0.2em;
+	padding:0.4em 0.3em 0.4em 0.8em;
+	background:url('../../common_img/line_dot.gif') repeat-x 0 100%;
+
+}
+
+#menu .lineup li a{
+	display:block;
+	padding-left:1em;
+	background:url('../../common_img/menu/arw_lineup.gif') no-repeat 0 0.4em;
+}
+
+/* -------------------------------------------- */
+/* custom：製品カスタマイズについて */
+/* -------------------------------------------- */
+#menu .custom{
+	margin-bottom:1em;
+}
+
+/* -------------------------------------------- */
+/* download：カタログダウンロード */
+/* -------------------------------------------- */
+#menu .download{
+	margin-bottom:1em;
+}
+
+/* -------------------------------------------- */
+/* tel：電話番号 */
+/* -------------------------------------------- */
+#menu .tel{
+	margin-bottom:1em;
+	padding-bottom:0.7em;
+	background:url('../../common_img/menu/back_tel.gif') repeat-x 0 100%;
+	border:#bbb 1px solid;
+}
+
+#menu .tel h4{
+	margin-bottom:1em;
+}
+
+#menu .tel p{
+	padding:0 0 5px 1em;
+}
+
+#menu .tel p a{
+	color:#aa0000;
+}
+
+/* -------------------------------------------- */
+/* group：他営業部 */
+/* -------------------------------------------- */
+#menu .group{
+	margin-bottom:2em;
+	padding:5em 0 0 1.3em;
+	background:url('../../common_img/menu/back_group.gif') no-repeat 0 0;
+}
+
+#menu .group ul{
+	list-style:none;
+}
+
+#menu .group li{
+	margin-bottom:0.4em;
+	padding-left:0.8em;
+	background:url('../../common_img/menu/arw_group.gif') no-repeat 0 8px;
+}
+
+#menu .group a{
+	padding-right:1.2em;
+	background:url('../../common_img/mark_target.gif') no-repeat 100% 0;
+	text-decoration:underline;
+}
+
+#menu .group a:hover{
+	text-decoration:none;
+}
+
+/* -------------------------------------------- */
+/* note：注意 */
+/* -------------------------------------------- */
+#menu .note{
+	padding:1em;
+	background:#f3f3f3;
+	line-height:1.4;
+	font-size:0.9em;
+}

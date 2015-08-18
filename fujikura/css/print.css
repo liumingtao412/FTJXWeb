@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+/*==================================================================*/
+
+/* print css */
+
+/*==================================================================*/
+
+/* ---------------------------------------------------------------- */
+body{
+	background:#fff none;
+}
+
+#header {
+	_background:#000;
+}
+
+#header #header-in{
+	_width:770px;
+	margin:0 auto;
+}
+
+#header #header-in .right{
+	float:right;
+	width:300px;
+	padding-top:2.3em;
+}
+
+#header #header-in .right .headline{
+	display:none;
+}
+
+#container{
+	background:none;
+}
+
+#wrapper{
+	background:none;
+}
+
+#container .pagetop p{
+	display:none;
+}
+
+#contents{
+	float:none;
+	width:700px;
+	padding-top:1.1em;
+}
+
+#contents{
+	float:none;
+	_float:left;
+	width:700px;
+	margin:0 auto;
+	_margin:0;
+	padding-top:1.1em;
+}
+
+#menu{
+	display:none;
+}
+
+#footer {
+	display:none;
+	clear:both;
+	padding-bottom:4em;
+	background:none;
+	color:#fff;
+	line-height:1.4;
+}
+
+
+/* ------ TOPページ ------ */
+#contents #custom,
+#contents #company{
+	page-break-before: always;
+	_page-break-before: auto;
+}
+
+#contents #lineup h3{
+	background:#333;
+}
+
+#contents #lineup h3 a{
+	_color:#fff;
+}
+
+#contents #lineup .left img{
+	margin-bottom:0.5em;
+}
+
+/* ------ 製品ページ ------ */
+#contents #top-area ul{
+	display:none;
+}
+
+#contents #top-area p.submenu{	
+	display:none;
+}
+
+/* ------ 用途ページ ------ */
+#contents .page{
+	page-break-before: always;
+	_page-break-before: auto;
+}
+
+
+#contents .list-area{
+	clear:both !important;
+	width:680px !important;
+	margin:0 auto 1.5em !important;
+	border:#fff 1px solid;
+}
+/* clear hack */
+#contents .list-area{zoom:1 !important;}
+#contents .list-area:after{content:" " !important;clear:both !important;height:0 !important;display:block !important;visibility:hidden !important;}
+
+
+
+/* ------ パンくず ------ */
+#contents #bread{
+	display:none;
+}

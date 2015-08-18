@@ -1,0 +1,427 @@
+a
+{
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+fieldset, img
+{
+	border: 0 none;
+}
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+div, ul, ol, li, h1, h2, h3, h4, h5, h6, form, p, th, td
+{
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+}
+ol, ul, li
+{
+	list-style: none;
+}
+div, li, a
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+	line-height: 19px;
+}
+
+.main
+{
+	width: 965px;
+	/*overflow-x: hidden;*/
+	background-color: #FFF;
+	margin: 0 auto;
+}
+.header
+{
+	width: 965px;
+	height: 74px;
+	background-color: #FFF;
+	overflow: hidden;
+	position: relative;
+}
+.searchTextboxInHeader
+{
+    height:10px;
+    width:80px;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.searchTextbox
+{
+  
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.logo
+{
+	position: absolute;
+	left: 34px;
+	top: 26px;
+}
+.logo a
+{
+	letter-spacing: 2px;
+	color: #333;
+	font-size: 28px;
+	line-height: 30px;
+}
+.logo a:hover
+{
+	text-decoration: none;
+}
+.head_right
+{
+	position: absolute;
+	left: 600px;
+	top: 0px;
+	text-align: right;
+	width: 320px;
+}
+
+.menu
+{
+	width: 965px;
+	height: 28px;
+	background-color: #FFF;
+	overflow: hidden;
+	background: url(menu_bg.gif) left top repeat-x;
+}
+.menu a
+{
+	display: block;
+	height: 28px;
+	width: 118px;
+    /*width: 136px;*/
+	float: left;
+	border-left: 1px #333 solid;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+	line-height: 26px;
+}
+.menu a:first-child
+{
+	border-left: none;
+}
+.menu a:hover
+{
+	text-decoration: none;
+	background: url(menu_hover.gif) left top repeat-x;
+}
+
+.content
+{
+	margin-top: 4px;
+}
+.left
+{
+	width: 785px;
+	overflow: hidden;
+}
+.right
+{
+	width: 176px;
+	overflow: hidden;
+	padding-left: 4px;
+}
+
+.focus
+{
+	width: 785px;
+	height: 200px;
+}
+.ltitle
+{
+	height: 30px;
+	padding: 5px 6px 8px;
+}
+.ltitle1
+{
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+	line-height: 28px;
+	padding-left: 30px;
+	height: 30px;
+	background: url(newproduct.gif) 9px 6px no-repeat;
+	/*border-bottom: 1px #999 solid;*/
+}
+.ltitle1 a
+{
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 28px;
+	color: #333;
+}
+.ltitle_no_border
+{
+	border: none;
+}
+
+.ProductsShowImg
+{
+	height: 136px;
+	overflow: hidden;
+	margin-left: 30px;
+    width : 750px;
+}
+.ProductsShowImg li
+{
+	width: 184px;
+	float: left;
+    display:inline; 
+}
+.ProductsShowImg li a{ width:171px; height:116px; display:block; float:left; text-align:center; font-size:12px;color: #666;}
+
+.ProductsShowImg li img {width:171px; height:116px;}
+
+.ProductsShowImg .text
+{
+	text-align: center;
+	font-weight: bold;
+	color: #666;
+}
+
+#ProductTreeContent #ProductTreeRightBar  table  {    
+    width:600px; 
+}
+#ProductTreeContent #ProductTreeRightBar  table td  {     
+    font-size:22px;
+    text-align:left;
+   width:auto;   
+    padding-top:3px;
+    padding-bottom:3px;
+    /*border:1px solid;*/
+   
+}
+    #ProductTreeContent #ProductTreeRightBar div table tr td:first-child {
+        width:30px;
+    }
+#ProductTreeContent #ProductTreeRightBar div div table  tr td:first-child + td {
+     width:30px;
+}
+.aboutUS
+{
+	overflow: hidden;
+	margin-left: 30px;
+    margin-bottom: 10px;
+	font-size: 13px;
+	line-height: 20px;
+	width: 720px;
+}
+.aboutUS p
+{
+	text-indent: 2em;
+}
+.aboutUS .read-more
+{
+	background: url(../images/link.gif) no-repeat center left;
+	padding-left: 13px;
+   float:right;
+}
+.defaltContainer
+{
+	overflow: hidden;
+	margin-left: 42px;
+	width: 710px;
+	margin-bottom: 24px;
+}
+
+.small-post
+{
+	margin-left: 36px;
+}
+.small-post img
+{
+	border: 1px solid #CCC;
+	padding: 3px;
+	margin-bottom: 10px;
+}
+
+.rnavtop
+{
+	width: 172px;
+	height: 12px;
+	background: url(rnavtop.gif) left bottom no-repeat;
+}
+.rnav
+{
+	width: 172px;
+	overflow: hidden;
+	background: url(rnavcenter.gif) left top repeat-y;
+	padding-bottom: 5px;
+}
+.rnavbottom
+{
+	width: 172px;
+	height: 16px;
+	background: url(rnavbottom.gif) left top no-repeat;
+}
+.rnavtitle
+{
+	width: 172px;
+	height: 18px;
+	margin-left: 15px;
+	padding: 9px 16px;
+	background: url(reddeo.gif) left 15px no-repeat;
+}
+.rnavtext
+{
+	padding-left: 32px;
+	width: 120px;
+}
+.rnav .line
+{
+	border-top: 1px dashed #9E9C9C;
+	margin: 14px 10px 4px;
+	height: 1px;
+}
+.rnavtext .line
+{
+	margin: 5px 0 3px;
+	width: 130px;
+}
+
+.stitle
+{
+	height: 30px;
+	padding: 5px 24px 8px 12px;
+}
+.stitle1
+{
+	font-size: 13px;
+	font-weight: bold;
+	color: #333;
+	line-height: 28px;
+	padding-left: 30px;
+	height: 30px;
+	background: url(newproduct.gif) 9px 6px no-repeat;
+	border-bottom: 1px #999 solid;
+}
+.stitle1 a
+{
+    font-size: 13px;
+	font-weight: bold;
+	color: #333;
+	line-height: 28px;	
+	height: 30px;		
+}
+.LBInfLabel
+{
+	margin: 10px 0 18px;
+	display: block;
+	font-size:medium;
+}
+
+.newsTitle
+{
+	line-height: 30px;
+}
+.newsContent
+{
+    word-wrap:break-word; 
+    word-break: break-all;
+    font-size:small;
+    line-height:normal;
+}
+.newsContent div
+{
+    font-size:small;
+    line-height:normal;
+}
+.bottom
+{
+    width:965px;
+	height: 70px;
+	background-color: #fff;
+	
+	text-align: center;
+	color: #666;
+	border-top-width:1px;
+	border-top-style:solid;
+	border-top-color:#cccccc;
+}
+.Paging {
+    margin:20px 10px;
+}
+.ProductDetail table
+{
+	text-align: left;
+	vertical-align:top;
+}
+
+.ProductDetail  img
+{
+	vertical-align:top;
+	margin-top:0px;
+}
+.ProductDetail ul li
+{
+	list-style-type: square;
+	list-style-position: inside;
+}
+.ProductDetail #flash
+{
+	text-align: center;
+	margin-left:40px;
+	margin-right:20px;
+   
+}
+.ProductsList
+{
+	width: 145px;
+	float: left;
+	overflow: hidden;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	height: 100px;
+}
+.ProductsList img
+{
+	margin-left: 0px;
+}
+.ProductsList a
+{
+	text-align: center;
+}
+.Clear
+{
+	clear: both;
+}
+
+.CollapsiblePanelContent {
+	margin: 0px;
+	padding: 0px;
+	font-family: "ËÎÌו";
+	font-size: 12px;
+	color: #444444;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.XuanXing
+{
+margin-left:40px;
+	}

@@ -1,0 +1,77 @@
+﻿@charset "utf-8";
+
+@import "../../css/style.css";
+
+/*==================================================================*/
+
+/* regulator Style css */
+
+/*==================================================================*/
+
+#contents .tokucho dl,
+#contents .youto dl{
+	width:660px;
+	margin:0 auto 0.5em;
+}
+
+#contents .tokucho dt{
+	padding-left:1em;
+	background:url("../../../../products/image/mark_tokucho.gif") no-repeat 0 8px;
+	font-weight:bold;
+	font-size:1.2em;
+	color:#003d82;
+}
+
+#contents .youto dt{
+	padding-left:1em;
+	background:url("../../../../products/image/mark_youto.gif") no-repeat 0 8px;
+	font-weight:bold;
+	font-size:1.2em;
+	color:#825900;
+}
+
+#contents .tokucho dd,
+#contents .youto dd{
+	width:600px;
+	padding-left:1em;
+}
+
+/* -------------------------------------------- */
+/* �d�l�F */
+/* -------------------------------------------- */
+
+#contents .shiyo table{
+	width:656px;
+	margin:0 auto 0.2em;
+}
+
+#contents .shiyo th{
+	width:200px;
+	padding:0.5em 0 0.5em 0.8em;
+	background:#707070 url("../../../../products/image/head_back.gif") repeat-y 0 0;
+	text-align:left;
+	color:#fff;
+}
+
+#contents .shiyo td{
+	padding:0.5em 0;
+	background:#eee;
+	text-align:center;
+}
+
+#contents .shiyo td.even{
+	background:#efefef;
+}
+
+#contents .shiyo p{
+	margin-left:0.9em;
+	font-size:0.9em;
+	line-height:1.4;
+}
+
+#contents .explanation .note{
+	width:660px;
+	margin:0 auto 1em;
+	font-weight:bold;
+	color:#cc0000;
+}

@@ -1,0 +1,149 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Template.master.cs" Inherits="Template" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"   runat="server">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="藤仓气缸,日本藤仓气缸,低摩擦气缸,Fujikura气缸,韩国SEBA,SEBA流量计" /> 　
+	<meta name="description" content="上海富藤机械一级代理日本藤仓气缸；总代理韩国SEBA。100%正品，货期短，售前售后服务周到。联系方式：021-20255882" /> 　    　
+	<link rel="stylesheet" href="images/style.css" />
+	<link rel="stylesheet" type="text/css" href="lineservice/skin/red/style.css" />
+	<title>藤仓气缸 | 日本藤仓气缸 | 低摩擦气缸 | 韩国SEBA - 上海富藤机械科技有限公司</title>
+</head>
+<body style="BACKGROUND: url(images/bg.gif) #eeeeee repeat-y center 50%;">
+	 <form id="form1" runat="server">
+	<div id="main" class="main">
+		
+		<div id="header" class="header">
+			<div id="logo" class="logo">
+				<a href="Default.aspx">上海富藤机械科技有限公司</a>
+			</div>
+			<div class="head_right">
+				<div style="margin-top: 17px;font-weight: normal;">
+                   
+					<a href="http://ftjx.cn/fujikura/cn/cn.html">藤仓专区</a>| English
+                   <%--   产品搜索<asp:TextBox runat="server" ID="SearchTextbox" CssClass="searchTextbox" />--%>
+				</div>
+				<div style="margin-top: 8px; font-weight: bold">                   
+                    咨询热线：021 - 2025 5882
+				</div>
+			</div>
+		</div>
+
+		<div id="menu" class="menu">
+			<a href="Default.aspx">首页</a>
+			<a href="News.aspx">新闻动态</a>
+			<a href="Products.aspx">产品展示</a>
+			<a href="AboutUS.aspx">公司简介</a>
+             <a href="Tech.aspx">技术支持</a>
+			<a href="AboutUS.aspx?class=joinus">人才招聘</a>
+			<a href="ContactUS.aspx">留言反馈</a>
+			<a href="ContactUS.aspx?class=contactinf">联系我们</a>
+           
+		</div>
+
+		<!--主要内容框架-->
+		<table id="content" class="content">
+			<tr>
+				<td colspan="2" style="padding-bottom: 4px">
+				<asp:ContentPlaceHolder ID="BorderContentPlaceHolder" runat="server">
+					</asp:ContentPlaceHolder></td>
+			</tr>
+			<tr>
+				<td class="left" valign="top">
+					<asp:ContentPlaceHolder ID="LeftContentPlaceHolder" runat="server">
+					</asp:ContentPlaceHolder>
+				</td>
+				<td class="right" valign="top">
+					<div class="rnavtop"></div>
+					<div class="rnav">
+						<div class="rnavtitle">公司概况</div>
+						<div class="rnavtext">
+							<p><a href="AboutUS.aspx">公司简介</a> | <a href="AboutUS.aspx?class=joinus">招聘信息</a>
+							</p>
+							<p><a href="ContactUS.aspx?class=contactinf">联系我们</a> | <a href="ContactUS.aspx">在线留言</a>
+							</p>
+						</div>
+						<div class="line"></div>
+						<div class="rnavtitle">产品分类</div>
+						<div class="rnavtext" id="ProductTreeRightBar">
+							<asp:TreeView ID="ProductsClassTreeView" runat="server" NodeWrap="True" BackColor="Transparent"
+								ImageSet="Simple">
+								<Nodes>
+									<asp:TreeNode Text="藤仓专区" NavigateUrl="~/fujikura/cn/cn.html" Target="_blank"></asp:TreeNode>
+								</Nodes>
+								<NodeStyle CssClass="TreeNode" Font-Names="Tahoma" Font-Size="10pt" ForeColor="Black"
+									HorizontalPadding="0px" NodeSpacing="0px" VerticalPadding="0px" />
+								<ParentNodeStyle Font-Bold="False" />
+								<HoverNodeStyle Font-Underline="True" ForeColor="#5555DD" />
+								<SelectedNodeStyle Font-Underline="True" ForeColor="#5555DD" HorizontalPadding="0px"
+									VerticalPadding="0px" />
+							</asp:TreeView>
+						</div>
+						<div class="line"></div>
+						<div class="rnavtitle">合作伙伴</div>
+						<div class="rnavtext">
+							<p><a href="http://www.fujikurarubber.com/">藤仓橡胶工业株式会社</a></p>
+							<p><a href="http://www.hangzhoufujikura.com/">杭州藤仓橡胶有限公司</a></p>
+							<p><a href="http://www.seba.co.kr/">韩国SEBA官方网页</a></p>
+						</div>
+
+                        <div class="line"></div>
+						<div class="rnavtitle">友情链接</div>
+						<div class="rnavtext">
+							<p><a href="http://bairen0913.cn.gongchang.com/">世界工厂网</a></p>							
+						</div>
+
+					</div>
+					<div class="rnavbottom"></div>
+				</td>
+			</tr>
+		</table>
+		<div class="bottom" id="bottom">
+			Copyright © 2009 版权所有 上海富藤机械科技有限公司 · 沪ICP备10017960号
+			<br />
+			<img alt="" src="images/police.png" />
+			<img alt="" src="images/zx110.png" />
+			<br />
+
+		</div>
+        <div style="width:965px; text-align:center">
+			<script src="http://s9.cnzz.com/stat.php?id=5410473&web_id=5410473&show=pic1" language="JavaScript"></script>
+        </div>
+
+	</div>
+	</form>
+    <div style="display:none">藤仓气缸,日本藤仓气缸,低摩擦气缸,Fujikura气缸,韩国SEBA,SEBA流量计,SEBA阀门,精密减压阀,电空变换器</div>
+	<%--qq在线客服代码--%>
+		<div id="online_service_bar">
+		<div id="online_service_minibar"></div>
+		<div id="online_service_fullbar">
+			<div class="service_bar_head">
+				<span id="service_bar_close" title="点击关闭">点击关闭</span></div>
+			<div class="service_bar_main">
+				<ul class="service_menu">
+					<li class="hover">
+						<dl>
+							<dd>
+							<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=672784677&site=qq&menu=yes">
+							<img width="74" height="22" border="0" src="lineservice/button_11.gif" alt="QQ在线客服" title="QQ在线客服" /></a>
+							<%--<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2487535039&site=www.ftjx.cn&menu=yes">
+							<img width="74" height="22" border="0" src="lineservice/button_11.gif" alt="QQ在线客服" title="QQ在线客服" /></a>--%>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var default_view = 1;
+		</script>
+		<script type="text/javascript" src="lineservice/js/jquery-1.3.2.min.js"></script>
+		<script type="text/javascript" src="lineservice/js/script.js"></script>
+	</div>
+
+   <%-- end - qq在线客服代码--%>
+
+    <asp:ContentPlaceHolder ID="ScriptContentPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+</body>
+</html>

@@ -1,0 +1,142 @@
+﻿@charset "utf-8";
+
+@import "../../css/common.css";
+
+/*==================================================================*/
+
+/* youto Style css */
+
+/*==================================================================*/
+
+#menu{
+	margin-top:-84px;
+	zoom:1;
+	position:relative;
+}
+
+#menu .iso{
+	display:none;
+}
+
+#contents .pagetop p{
+	margin:0 0em 0em 0;
+	padding-bottom:3em;
+	text-align:right;
+}
+
+/* -------------------------------------------- */
+/* top-area�F */
+/* -------------------------------------------- */
+
+#contents h1{
+	margin:0 auto 1em;
+	*margin:0 auto 0.6em;
+	}
+
+#contents .comment{
+	width:640px;
+	margin:0 auto 1.6em;
+}
+
+#contents h2{
+	width:680px;
+	margin:0 auto 1em;
+}
+
+#contents h3{
+	width:648px;
+	margin:0 auto 0.9em;
+	padding:0 0 0.5em 1em;
+	background:url("../image/sub_youto.gif") no-repeat 0 0;
+	font-size:1.2em;
+}
+
+#contents .youto{
+	clear:both;
+	width:660px;
+	margin:0 auto 3em;
+}
+/* clear hack */
+#contents .youto{zoom:1;}
+#contents .youto:after{content:" ";clear:both;height:0;display:block;visibility:hidden;}
+
+#contents .youto .left{
+	float:left;
+}
+
+#contents .youto .right{
+	float:right;
+	width:380px;
+}
+
+#contents .youto .right p{
+	padding:0.5em 0.3em;
+}
+
+#contents .youto .right ul{
+	list-style:none;
+}
+
+#contents .youto .right ul.example{
+	margin-bottom:0.5em;
+	padding:1em 1.5em;
+	background:url('../image/back.gif') repeat 0 0;
+	border:#ccc 1px solid;
+}
+
+#contents .youto .right ul.example li{
+	padding:0 0 0 0.9em;
+	background:url('../image/mark_youto.gif') no-repeat 0 6px;
+}
+
+#contents .youto .right ul.parts{
+	padding-left:0.3em;
+}
+/* clear hack */
+#contents .youto .right ul.parts{zoom:1;}
+#contents .youto .right ul.parts:after{content:" ";clear:both;height:0;display:block;visibility:hidden;}
+
+#contents .youto .right ul.parts li{
+	float:left;
+	width:160px;
+}
+
+#contents .youto .right ul.parts li.long{
+	width:200px;
+}
+
+#contents .youto .right .note{
+	margin-bottom:10px;
+	padding:0 0 0 14px;
+	background:url('../image/mark_note.gif') no-repeat 2px 4px;
+	font-weight:bold;
+	color:#333;
+}
+
+#contents .youto .right .link {
+	text-align:right;
+}
+
+#contents .youto .right .link a{
+	padding:0 0 0 11px;
+	background:url('../image/mark_link.gif') no-repeat 0 3px;
+}
+
+/* jQuery lightBox plugin - Gallery style */
+#gallery {
+	background-color: #444;
+	padding: 10px;
+	width: 520px;
+}
+#gallery ul { list-style: none; }
+#gallery ul li { display: inline; }
+#gallery ul img {
+	border: 5px solid #3e3e3e;
+	border-width: 5px 5px 20px;
+}
+#gallery ul a:hover img {
+	border: 5px solid #fff;
+	border-width: 5px 5px 20px;
+	color: #fff;
+}
+#gallery ul a:hover { color: #fff; }

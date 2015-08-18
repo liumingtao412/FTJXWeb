@@ -1,0 +1,117 @@
+﻿@charset "utf-8";
+
+@import "../../css/common.css";
+
+/*==================================================================*/
+
+/* faq Style css */
+
+/*==================================================================*/
+
+#header #header-in #logo-area .mark{
+	float:left;
+}
+
+#menu{
+	margin-top:-84px;
+	zoom:1;
+	position:relative;
+}
+
+#menu .iso{
+	display:none;
+}
+
+#contents *{margin:0;padding:0;}
+#contents{
+	padding-top:1.1em;
+}
+
+#contents h1{
+	margin:0 auto 1em;
+	*margin:0 auto 0.6em;
+	}
+
+/* -------------------------------------------- */
+/* tabContainerF */
+/* -------------------------------------------- */
+#contents .comment{
+	width:640px;
+	margin:0 auto 1.6em;
+}
+
+#contents .select-cat{
+	width:636px;
+	margin:0 auto 2em;
+	padding:1em;
+	background:#eee;
+	border:#ccc 1px solid;
+	text-align:center;
+}
+
+#contents a{
+	color:#333;
+}
+
+/* -------------------------------------------- */
+/* tabContainerF */
+/* -------------------------------------------- */
+
+#contents .tabContainer{
+	width:680px;
+	margin:0 auto 4em;
+	}
+	
+#contents .tabContainer h2{
+	margin-bottom:1em;
+	padding:0.8em 0 0.8em 1.6em;
+	background:url("../image/back_sub.gif") no-repeat 0 0;
+	font-size:1.4em;
+	color:#333;
+	}
+	
+#contents .tabContainer dl{
+	width:660px;
+	margin:0 auto;
+	background:url("../../../common_img/line_dot.gif") repeat-x 0 100%;
+}
+
+/* Q-area */
+#contents .tabContainer dt{
+	margin-bottom:0em;
+	padding:0.9em 0.4em 0.7em;
+	background:url("../../../common_img/line_dot.gif") repeat-x 0 100%;
+}
+#contents .tabContainer dt a{
+	display:block;
+	padding:0.2em 0 0.2em 3.2em;
+	background:url("../image/mark_que.gif") no-repeat 0 0;
+}
+
+#contents .tabContainer dt a:hover{
+	color:#0372bf;
+}
+
+/* A-area */
+#contents .tabContainer dd{
+	padding:0em 1em 0 5em;
+	background:#eee url("../image/mark_ans.gif") no-repeat 38px 14px;
+	border-bottom:#ccc 1px solid;
+}
+
+#contents .tabContainer dd div{
+	padding:0.8em 0;
+}
+
+#contents .tabContainer .nodate{
+	width:560px;
+	margin:2em auto 0;
+	padding:2em 0;
+}
+
+#contents .tabContainer .nodate p{
+	padding:2em 0;
+	border:#999 1px dotted;
+	text-align:center;
+}
+

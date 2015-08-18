@@ -1,0 +1,137 @@
+﻿
+html{ 
+margin:0px; 
+height:100%; 
+} 
+body { text-align:center; font-family: "宋体"; font-size: 9pt; color: #000000; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;height:100%}
+table { font-family: "宋体"; font-size: 9pt; line-height: 20px; color: #000000; padding-bottom:0; padding-left:0; padding-right:0; padding-top:0; }
+td{border-style: none; text-align:left;vertical-align:top;}
+
+
+
+a.one:link { font-size: 9pt; color: #000000; text-decoration: none;}
+a.one:visited { font-size: 9pt; color: #000000; text-decoration: none;}
+a.one:hover { font-size: 9pt; color:Orange; text-decoration: underline;}
+
+
+a.two:link
+{
+	font-size: 12pt;
+	color: dimgray;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 微软雅黑, 宋体, 华文中宋;
+}
+a.two:visited 
+{
+	font-size: 12pt; 
+	color: dimgray; 
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 微软雅黑, 宋体, 华文中宋;
+	
+}
+a.two:hover 
+{ 
+	font-size: 12pt; 
+	color: #FF9900; 
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 微软雅黑, 宋体, 华文中宋;
+}
+
+
+.blue { font-family: "宋体"; font-size: 10.5pt; line-height: 20px; color: #0099FF; letter-spacing: 5em}
+
+p { text-indent: 2em; }
+
+img 
+{
+	border:0;
+}
+.divwarp
+{
+	word-wrap:break-all; 
+	word-break:break-all; 
+	
+	text-align:left; 
+	padding-left:10px; 
+	padding-top:10px; 
+	padding-right:10px
+	
+	}
+.newsTitle
+{
+	font-size: 12pt;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 宋体;
+	text-align:center;
+	word-wrap:break-all; 
+	word-break:break-all; 
+	
+	}
+.maincontent
+{
+	font-size: 9pt;
+	color: black;
+	text-decoration: none;
+	font-family: 宋体;
+	text-align: left;
+	word-wrap: break-all;
+	word-break: break-all;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	vertical-align: top;
+}
+
+.maincontentBig
+{
+	font-size: 12pt;
+	color: #333333;
+	text-decoration: none;
+	font-family: 宋体;
+	line-height: 24px;
+	text-align: left;
+	word-wrap: break-all;
+	word-break: break-all;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.LBList
+{
+	font-size: 9pt;
+	color: black;
+	text-decoration: none;
+	font-family: 宋体;
+	text-align: left;
+	word-wrap: break-all;
+	word-break: break-all;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	vertical-align: top;
+	position:relative;
+	
+	}
+.PicAD
+{
+	width:112px; 
+	height:84px; 
+	padding:5px; 
+	margin-top:5px;
+	position:relative;
+	
+}
+.PicEmap
+{
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+
+}

@@ -1,0 +1,323 @@
+@import "common.css";
+#header #header-in {
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 16px;
+    padding-top: 0;
+    width: 968px;
+}
+#header #header-in #logo-area {
+    padding-left: 8px;
+    width: 490px;
+}
+#contents {
+    padding-top: 0;
+}
+#wrapper {
+    -moz-background-clip: border;
+    -moz-background-origin: padding;
+    -moz-background-size: auto auto;
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+#header {
+    -moz-background-clip: border;
+    -moz-background-origin: padding;
+    -moz-background-size: auto auto;
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url("/cn/image/back_header.gif");
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    padding-bottom: 10px;
+}
+#menu .logo {
+    position: absolute;
+    top: 0;
+}
+#mainvisual * {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+#mainvisual {
+    -moz-background-clip: border;
+    -moz-background-origin: padding;
+    -moz-background-size: auto auto;
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url("/cn/image/back_mainvisual.gif");
+    background-position: 0 0;
+    background-repeat: repeat-x;
+}
+#mainvisual .inner {
+    -moz-background-clip: border;
+    -moz-background-origin: padding;
+    -moz-background-size: auto auto;
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url("/cn/image/back_mainvisual_in.jpg");
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+#mainvisual h1 {
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    width: 968px;
+}
+#mainvisual h1 img {
+    vertical-align: bottom;
+}
+#contents #ban-area {
+    margin-bottom: 1.5em;
+}
+#contents #catch-area {
+    margin-bottom: 3em;
+    padding-top: 0.5em;
+}
+#contents #catch-area h2 {
+    margin-bottom: 0.8em;
+}
+#contents #catch-area .inner {
+    padding-bottom: 0;
+    padding-left: 0.3em;
+    padding-right: 1em;
+    padding-top: 0;
+}
+#contents #catch-area .inner {
+}
+#contents #catch-area .inner:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+#contents #catch-area .inner .right {
+    float: right;
+    padding-top: 0.5em;
+    width: 430px;
+}
+#contents #catch-area .inner .right p {
+    margin-bottom: 1.2em;
+}
+#contents #catch-area .inner .right p.btn {
+    margin-bottom: 0;
+    text-align: right;
+}
+#contents #catch-area .inner .left {
+    float: left;
+    width: 236px;
+}
+#contents #lineup {
+    margin-bottom: 3em;
+}
+#contents #lineup h2 {
+    margin-bottom: 1em;
+}
+#contents #lineup .inner {
+    -moz-background-clip: border;
+    -moz-background-origin: padding;
+    -moz-background-size: auto auto;
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url("/cn/image/lineup_fieldset.gif");
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 0 !important;
+    margin-left: 0.5em !important;
+    margin-right: 0.5em !important;
+    margin-top: 0 !important;
+    padding-bottom: 1.5em;
+}
+#contents #lineup .inner {
+}
+#contents #lineup .inner:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+#contents #lineup .product {
+    float: left;
+    margin-right: 14px;
+    width: 220px;
+}
+#contents #lineup .product {
+}
+#contents #lineup .product:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+#contents #lineup .last {
+    margin-right: 0 !important;
+}
+#contents #lineup h3 {
+    -moz-background-clip: border;
+    -moz-background-origin: padding;
+    -moz-background-size: auto auto;
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url("/cn/image/sub_lineup.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    font-size: 1.2em;
+    margin-bottom: 0.6em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 0;
+    padding-top: 0.5em;
+}
+#contents #lineup h3 a {
+    -moz-background-clip: border;
+    -moz-background-origin: padding;
+    -moz-background-size: auto auto;
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url("/cn/image/arw_lineup.gif");
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    padding-left: 1.8em;
+    text-decoration: none;
+}
+#contents #lineup h3 a:hover {
+    color: #CCCCCC;
+}
+#contents #lineup p.btn {
+    text-align: center;
+}
+#contents #lineup .photo {
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+#contents #company .place {
+    -moz-background-clip: border;
+    -moz-background-origin: padding;
+    -moz-background-size: auto auto;
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url("/cn/image/back_company.gif");
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+}
+#contents #company .place h3 {
+    margin-bottom: 1.8em;
+}
+#contents #company .place .place-inner {
+    padding-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1.5em;
+    padding-top: 0;
+}
+#contents #company .place .place-inner {
+}
+#contents #company .place .place-inner:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+#contents #company .place .place-inner .left {
+    float: left;
+    width: 264px;
+}
+#contents #company .place .place-inner .right {
+    float: right;
+    padding-top: 0.8em;
+    width: 390px;
+}
+#contents #company .place .place-inner .right h4 {
+    margin-bottom: 1em;
+}
+#contents #company .place .place-inner .right p {
+    margin-bottom: 1em;
+}
+#contents #company .place .place-inner .right a.target {
+    -moz-background-clip: border;
+    -moz-background-origin: padding;
+    -moz-background-size: auto auto;
+    background-attachment: scroll;
+    background-color: #F5F5F5;
+    background-image: url("/common_img/mark_target.gif");
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    padding-right: 1.2em;
+}
+#contents #company .place .place-inner .contact {
+    margin-bottom: 1em;
+    padding-left: 0.3em;
+}
+#contents #company .place .place-inner .contact {
+}
+#contents #company .place .place-inner .contact:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+#contents #company .place .place-inner .contact table, #contents #company .place .place-inner .contact th, #contents #company .place .place-inner .contact td {
+    border-bottom-color: -moz-use-text-color;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-collapse: collapse;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: -moz-use-text-color;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: none;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: medium;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: -moz-use-text-color;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: none;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: medium;
+    border-top-color: -moz-use-text-color;
+    border-top-style: none;
+    border-top-width: medium;
+}
+#contents #company .place .place-inner .contact table {
+    float: left;
+}
+#contents #company .place .place-inner .contact th {
+    color: #444444;
+    text-align: left;
+    width: 75px;
+}
+#contents #company .place .place-inner .contact td {
+}
+#contents #company .place .place-inner .contact img {
+    float: right;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0.5em;
+    padding-top: 1.5em;
+    width: 220px;
+}

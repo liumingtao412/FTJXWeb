@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	<default url="Default.aspx" title="管理首页" authority="0" />
+  <XWAdmin title="新闻管理" authority="1" url="XWAdmin.aspx"></XWAdmin>
+  <TechAdmin title="技术支持" authority="1" url="TechAdmin.aspx"></TechAdmin>
+  <CPAdmin title="产品管理" authority="1" url="CPAdmin.aspx"></CPAdmin>
+  <LBAdmin title="产品类别" authority="1" url="LBAdmin.aspx"></LBAdmin>
+  <MXAdmin title="明星产品" authority="1" url="MXAdmin.aspx"></MXAdmin>
+  <LYAdmin title="留言管理" authority="1" url="LYAdmin.aspx"></LYAdmin>  
+  <XXAdmin title="公司信息" authority="1" url="XXAdmin.aspx"></XXAdmin>
+  <BannerAdmin title="Banner图片" authority="2" url="BannerAdmin.aspx"></BannerAdmin>  
+  <YHAdmin title="管理帐号" authority="2" url="YHAdmin.aspx"></YHAdmin>  
+</page>
