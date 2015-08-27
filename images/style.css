@@ -287,6 +287,12 @@ div, li, a
 	padding-left: 32px;
 	width: 120px;
 }
+
+.rnavtext td
+{
+	vertical-align:top;
+}
+
 .rnav .line
 {
 	border-top: 1px dashed #9E9C9C;
