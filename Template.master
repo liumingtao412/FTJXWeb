@@ -105,7 +105,9 @@
 			<img alt="" src="images/police.png" />
 			<img alt="" src="images/zx110.png" />
 			<br />
-
+              <div style="width:300px;margin:0 auto; padding:20px 0;">
+		 		<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502003961" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img alt="上海公安备案" src="images/beianicon.png" style="float:left;"><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">沪公网安备 31011502003961号</p></a>
+		 	</div>
 		</div>
         <div style="width:965px; text-align:center">
 			<script src="http://s9.cnzz.com/stat.php?id=5410473&web_id=5410473&show=pic1" language="JavaScript"></script>
