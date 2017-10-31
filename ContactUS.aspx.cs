@@ -44,7 +44,7 @@ public partial class ContactUS : System.Web.UI.Page
                     ContectInfLabel.Text = _dt.Rows[0]["LXFS"].ToString() + @"<br /> <br /> <br />";
                     ContectInfLabel.Visible = true;
 
-                    EMapImage.ImageUrl = "~/Pics/公司地图3.gif";
+                    EMapImage.ImageUrl = "~/Pics/公司地图3.gif";//百度地图
                     EMapImage.Visible = true;
                 }
                 else

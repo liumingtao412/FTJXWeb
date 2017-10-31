@@ -18,10 +18,12 @@ website.publishproj
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{6e50f40b-a96f-4ece-b587-33a8530a0ebb}</ProjectGuid>
     <SourceWebPhysicalPath>$(MSBuildThisFileDirectory)</SourceWebPhysicalPath>
-    <SourceWebVirtualPath>/ftjx_new_test</SourceWebVirtualPath>
+    <SourceWebVirtualPath>/FTJXWeb</SourceWebVirtualPath>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
-    <SourceWebProject>http://localhost:15660</SourceWebProject>
-    <SourceWebMetabasePath>/IISExpress/7.5/LM/W3SVC/4/ROOT</SourceWebMetabasePath>
+    <SourceWebProject>
+    </SourceWebProject>
+    <SourceWebMetabasePath>
+    </SourceWebMetabasePath>
   </PropertyGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
