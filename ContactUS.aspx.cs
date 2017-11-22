@@ -39,20 +39,23 @@ public partial class ContactUS : System.Web.UI.Page
                 {
                     stitle.Text = "联系方式";
                     borderImg.ImageUrl = "images/b/contactus.jpg";
-                    EMapImage.Visible = false;
+                    // EMapImage.Visible = false;
+                    EMapPanel.Visible = false;
                     MessagePanel.Visible = false;
                     ContectInfLabel.Text = _dt.Rows[0]["LXFS"].ToString() + @"<br /> <br /> <br />";
                     ContectInfLabel.Visible = true;
 
-                    EMapImage.ImageUrl = "~/Pics/公司地图3.gif";//百度地图
-                    EMapImage.Visible = true;
+                    //EMapImage.ImageUrl = "~/Pics/公司地图3.gif";//百度地图
+                    //EMapImage.Visible = true;
+                    EMapPanel.Visible = true;   
                 }
                 else
                 {
                     stitle.Text = "在线留言";
                     borderImg.ImageUrl = "images/b/feedback.jpg";
 
-                    EMapImage.Visible = false;
+                    //EMapImage.Visible = false;
+                    EMapPanel.Visible = false;
                     ContectInfLabel.Visible = false;
                     MessagePanel.Visible = true;
 
