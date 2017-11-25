@@ -336,9 +336,9 @@ div, li, a
 	font-size:medium;
 }
 
-.newsTitle
-{
-	line-height: 30px;
+.newsTitle {
+    line-height: 30px;
+    font-size: 22px;
 }
 .newsContent
 {
@@ -349,8 +349,8 @@ div, li, a
 }
 .newsContent div
 {
-    font-size:small;
-    line-height:normal;
+    font-size:medium;
+    line-height:1.5;
 }
 .bottom
 {
