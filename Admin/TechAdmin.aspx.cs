@@ -48,8 +48,8 @@ public partial class Admin_TechAdmin : System.Web.UI.Page
                         }
                         else
                         {
-                            MyBasePage.writeLog(Session["userName"].ToString(), "选择指定新闻或通知时发生错误,操作对象ID:" + e.CommandArgument.ToString());
-                            JScript.AlertAndRedirect("载入指定新闻或通知时发生错误", "", this);
+                            MyBasePage.writeLog(Session["userName"].ToString(), "载入技术支持文章时发生错误,操作对象ID:" + e.CommandArgument.ToString());
+                            JScript.AlertAndRedirect("载入技术支持文章时发生错误", "", this);
                         }
                     }
                     else
@@ -82,8 +82,8 @@ public partial class Admin_TechAdmin : System.Web.UI.Page
 
                         if (command.ExecuteNonQuery() > 0)
                         {
-                            MyBasePage.writeLog(Session["userName"].ToString(), "修改新闻或通知,操作对象ID:" + e.CommandArgument);
-                            JScript.AlertAndRedirect("新闻或通知已修改", "", this);
+                            MyBasePage.writeLog(Session["userName"].ToString(), "修改技术支持,操作对象ID:" + e.CommandArgument);
+                            JScript.AlertAndRedirect("技术支持已修改", "", this);
 
                             TechListPanel.Visible = true;
                             EditPanel.Visible = false;
@@ -91,8 +91,8 @@ public partial class Admin_TechAdmin : System.Web.UI.Page
                         }
                         else
                         {
-                            MyBasePage.writeLog(Session["userName"].ToString(), "修改新闻或通知时发生错误，返回受影响数据库条数为零。操作对象ID:" + e.CommandArgument);
-                            JScript.AlertAndRedirect("修改新闻或通知时发生错误", "", this);
+                            MyBasePage.writeLog(Session["userName"].ToString(), "修改技术支持时发生错误，返回受影响数据库条数为零。操作对象ID:" + e.CommandArgument);
+                            JScript.AlertAndRedirect("修改技术支持时发生错误", "", this);
                         }
                     }
                     else
@@ -108,13 +108,13 @@ public partial class Admin_TechAdmin : System.Web.UI.Page
                         OleDbCommand command = new OleDbCommand(strSQL, objConnection);
                         if (command.ExecuteNonQuery() > 0)
                         {
-                            MyBasePage.writeLog(Session["userName"].ToString(), "删除新闻或通知,操作对象ID:" + e.CommandArgument.ToString());
-                            JScript.AlertAndRedirect("该新闻或通知已删除", "", this);
+                            MyBasePage.writeLog(Session["userName"].ToString(), "删除技术支持,操作对象ID:" + e.CommandArgument.ToString());
+                            JScript.AlertAndRedirect("该技术支持已删除", "", this);
                         }
                         else
                         {
-                            MyBasePage.writeLog(Session["userName"].ToString(), "删除新闻或通知时发生错误，返回受影响数据库条数为零。欲操作对象ID: " + e.CommandArgument.ToString());
-                            JScript.AlertAndRedirect("删除新闻或通知时发生错误", "", this);
+                            MyBasePage.writeLog(Session["userName"].ToString(), "删除技术支持时发生错误，返回受影响数据库条数为零。欲操作对象ID: " + e.CommandArgument.ToString());
+                            JScript.AlertAndRedirect("删除技术支持时发生错误", "", this);
                         }
                     }
                     else
@@ -122,7 +122,47 @@ public partial class Admin_TechAdmin : System.Web.UI.Page
                         JScript.Alert("您无权进行此操作", this);
                     }
 
-                    break;                
+                    break;
+                case "doPublish":
+                    actionNeedAuthority = 1;
+                    if (admin_MasterPage.userAuthority >= actionNeedAuthority)
+                    {
+                        string strSQL = "UPDATE JSZCTable SET isPublish =iif(isPublish,0,1) WHERE 编号=" + e.CommandArgument.ToString();
+                        OleDbCommand command = new OleDbCommand(strSQL, objConnection);
+                        if (command.ExecuteNonQuery() > 0)
+                        {
+                            strSQL = "SELECT isPublish From JSZCTable Where 编号=" + e.CommandArgument.ToString();
+                            command.CommandText = strSQL;
+                            OleDbDataReader rd = command.ExecuteReader();
+                            if (rd.Read())
+                            {
+                                bool isPublish = Convert.ToBoolean(rd["isPublish"]);
+                                rd.Close();
+                                if (isPublish)
+                                {
+                                    MyBasePage.writeLog(Session["userName"].ToString(), "发布新闻,操作对象ID:" + e.CommandArgument.ToString());
+                                    JScript.AlertAndRedirect("该技术支持已发布", "", this);
+                                }
+                                else
+                                {
+                                    MyBasePage.writeLog(Session["userName"].ToString(), "撤销发布新闻,操作对象ID:" + e.CommandArgument.ToString());
+                                    JScript.AlertAndRedirect("该技术支持已撤销发布", "", this);
+                                }
+                            }
+
+                        }
+                        else
+                        {
+                            MyBasePage.writeLog(Session["userName"].ToString(), "发布新闻时发生错误，返回受影响数据库条数为零。欲操作对象ID: " + e.CommandArgument.ToString());
+                            JScript.AlertAndRedirect("发布发生错误", "", this);
+                        }
+                    }
+                    else
+                    {
+                        JScript.Alert("您无权进行此操作", this);
+                    }
+
+                    break;
             }
         }
     }
@@ -179,8 +219,8 @@ public partial class Admin_TechAdmin : System.Web.UI.Page
 
             if (command.ExecuteNonQuery() > 0)
             {
-                MyBasePage.writeLog(Session["userName"].ToString(), "添加新闻或通知,标题:" + titleTextBox.Text);
-                JScript.AlertAndRedirect("新闻或通知已添加", "", this);
+                MyBasePage.writeLog(Session["userName"].ToString(), "添加技术支持,标题:" + titleTextBox.Text);
+                JScript.AlertAndRedirect("技术支持已添加", "", this);
 
                 TechListPanel.Visible = true;
                 EditPanel.Visible = false;
@@ -188,8 +228,8 @@ public partial class Admin_TechAdmin : System.Web.UI.Page
             }
             else
             {
-                MyBasePage.writeLog(Session["userName"].ToString(), "添加新闻或通知时发生错误，返回受影响数据库条数为零。欲添加标题: " + titleTextBox.Text);
-                JScript.AlertAndRedirect("添加新闻或通知时发生错误", "", this);
+                MyBasePage.writeLog(Session["userName"].ToString(), "添加技术支持时发生错误，返回受影响数据库条数为零。欲添加标题: " + titleTextBox.Text);
+                JScript.AlertAndRedirect("添加技术支持时发生错误", "", this);
             }
         }
 

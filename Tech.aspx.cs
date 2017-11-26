@@ -78,7 +78,7 @@ public partial class Tech : System.Web.UI.Page
         string strConnection = ConfigurationManager.ConnectionStrings["AccessConnectionString"].ConnectionString;
         OleDbConnection objConnection = new OleDbConnection(strConnection);
         objConnection.Open();
-        string strSQL = "SELECT TOP 120 * FROM JSZCTable WHERE articleDelete=false ORDER BY isTop, articleTime DESC ";
+        string strSQL = "SELECT TOP 120 * FROM JSZCTable WHERE articleDelete=false AND isPublish=true ORDER BY isTop, articleTime DESC ";
         OleDbDataAdapter daForRepeator = new OleDbDataAdapter(strSQL, objConnection);
         DataSet dsForRepeator = new DataSet();
         daForRepeator.Fill(dsForRepeator, "article");

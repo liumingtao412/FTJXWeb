@@ -18,7 +18,7 @@
                             OnCommand="Article_Command" />
                         <asp:Button ID="Button1" runat="server" Text="删除" OnClientClick="return confirm( '确定删除该记录? ');"
                             CommandName="doDelete" CommandArgument='<%#Eval("编号")%>' OnCommand="Article_Command" />
-                        <asp:Button ID="Button_publish" runat="server" Text='<%# Convert.ToBoolean(Eval("isPublish"))?"撤销":"发布"%>' CommandName="doPublish" CommandArgument='<%#Eval("编号") %>'
+                        <asp:Button ID="Button_publish" runat="server" Text='<%# Convert.ToBoolean(Eval("isPublish"))?"撤回":"发布"%>' CommandName="doPublish" CommandArgument='<%#Eval("编号") %>'
                             OnCommand="Article_Command" />
                     </ItemTemplate>
                     <HeaderStyle Width="120px" HorizontalAlign="Center" />
