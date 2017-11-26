@@ -67,8 +67,8 @@
 		// Set the maximum size of uploaded images. If an uploaded image is
 		// larger, it gets scaled down proportionally. Set to 0 to disable this
 		// feature.
-		Images.MaxWidth = 680;
-		Images.MaxHeight = 1200;
+		Images.MaxWidth = 620;
+		Images.MaxHeight = 1600;
 		Images.Quality = 80;
         
 

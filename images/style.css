@@ -242,7 +242,12 @@ div, li, a
 	margin-left: 42px;
 	width: 710px;
 	margin-bottom: 24px;
+  
 }
+    .defaltContainer p, .defaltContainer p a {
+        font-size: medium;
+        line-height: 1.5;
+    }
 
 .small-post
 {
@@ -344,14 +349,38 @@ div, li, a
 {
     word-wrap:break-word; 
     word-break: break-all;
-    font-size:small;
-    line-height:normal;
+    font-size:medium;
+    line-height:1.5;
 }
+    .newsContent ol, ul, li {
+        list-style: decimal;
+        font-size: medium;
+        line-height: 1.5;
+    }
+    .newsContent ol {
+        padding-left: 50px;
+    }
+
+.newsContent span {
+        font-size: medium;
+        line-height: 1.5;
+    }
+.newsContent a {
+        font-size: medium;
+        line-height: 1.5;
+        text-decoration:underline;
+    }
 .newsContent div
 {
     font-size:medium;
     line-height:1.5;
 }
+.newsContent div img{
+       margin:5px;
+    }
+.newsContent div iframe {
+        margin: 5px;
+    }
 .bottom
 {
     width:965px;

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/AdminPages/AdminDefault.aspx" title="管理主页"  description="">
+    <siteMapNode url="~/AdminPages/AdminNews.aspx" title="新闻管理"  description="" />
+    <siteMapNode url="~/AdminPages/AdminProducts.aspx" title="产品管理"  description="" />
+    <siteMapNode url="~/AdminPages/AdminMessage.aspx" title="留言管理"  description="" />
+    <siteMapNode url="~/AdminPages/AdminSystem.aspx" title="系统设置"  description="" />
+    <siteMapNode url="~/Default.aspx?action=quitadmin" title="退出后台"  description="" />
+  </siteMapNode>
+</siteMap>

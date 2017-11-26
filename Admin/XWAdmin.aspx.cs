@@ -123,6 +123,29 @@ public partial class Admin_XW : System.Web.UI.Page
                     }
 
                     break;
+                case "doPublish":
+                    actionNeedAuthority = 1;
+                    if (admin_MasterPage.userAuthority >= actionNeedAuthority)
+                    {
+                        string strSQL = "UPDATE XWTable SET newsDelete=true WHERE 编号=" + e.CommandArgument.ToString();
+                        OleDbCommand command = new OleDbCommand(strSQL, objConnection);
+                        if (command.ExecuteNonQuery() > 0)
+                        {
+                            MyBasePage.writeLog(Session["userName"].ToString(), "删除新闻或通知,操作对象ID:" + e.CommandArgument.ToString());
+                            JScript.AlertAndRedirect("该新闻或通知已删除", "", this);
+                        }
+                        else
+                        {
+                            MyBasePage.writeLog(Session["userName"].ToString(), "删除新闻或通知时发生错误，返回受影响数据库条数为零。欲操作对象ID: " + e.CommandArgument.ToString());
+                            JScript.AlertAndRedirect("删除新闻或通知时发生错误", "", this);
+                        }
+                    }
+                    else
+                    {
+                        JScript.Alert("您无权进行此操作", this);
+                    }
+
+                    break;
                 case "doView":
                     //actionNeedAuthority = 1;
                     //if (admin_MasterPage.userAuthority >= actionNeedAuthority)
