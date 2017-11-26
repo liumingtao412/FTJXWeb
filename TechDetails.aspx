@@ -2,7 +2,7 @@
     CodeFile="TechDetails.aspx.cs" Inherits="TechDetails" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="BorderContentPlaceHolder" Runat="Server">
-    <img height="195" alt="富藤科技技术支持" src="images/b/tech.jpg" width="960" />
+    <img height="195" alt="富藤科技技术支持" src="images/b/tech.jpg" width="965" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="LeftContentPlaceHolder" Runat="Server">
      <div class="stitle">

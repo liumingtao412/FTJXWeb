@@ -55,7 +55,7 @@
     </div>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BorderContentPlaceHolder" runat="Server">
-    <img height="195" src="images/b/products.jpg" width="960" alt="富藤科技产品中心" />
+    <img height="195" src="images/b/products.jpg" width="965" alt="富藤科技产品中心" />
 </asp:Content>
 
 <asp:Content ID="ScrollScriptContent" ContentPlaceHolderID="ScriptContentPlaceHolder" runat="Server">

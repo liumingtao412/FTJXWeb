@@ -27,5 +27,5 @@
     </div>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BorderContentPlaceHolder" runat="Server">
-    <img alt="富藤科技产品信息" height="195" src="images/b/products.jpg" width="960" />
+    <img alt="富藤科技产品信息" height="195" src="images/b/products.jpg" width="965" />
 </asp:Content>

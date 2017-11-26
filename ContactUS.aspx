@@ -104,7 +104,7 @@
     </div>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BorderContentPlaceHolder" runat="Server">
-    <asp:Image Height="195" Width="960" ImageUrl="images/b/contactus.jpg" runat="server"
+    <asp:Image Height="195" Width="965" ImageUrl="images/b/contactus.jpg" runat="server"
         ID="borderImg" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ScriptContentPlaceHolder" runat="server">

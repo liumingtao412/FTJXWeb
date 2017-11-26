@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Template.master" AutoEventWireup="true" CodeFile="Tech.aspx.cs" Inherits="Tech" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="BorderContentPlaceHolder" Runat="Server">
-     <img alt="富藤科技技术支持" height="195" src="images/b/tech.jpg" width="960" />
+     <img alt="富藤科技技术支持" height="195" src="images/b/tech.jpg" width="965" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="LeftContentPlaceHolder" runat="Server">
     <div class="stitle">

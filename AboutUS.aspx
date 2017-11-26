@@ -13,6 +13,6 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BorderContentPlaceHolder" runat="Server">
    <%-- <img height="195" src="images/b/aboutus.jpg" width="960">--%>
-    <asp:Image runat="server" Height="195" Width="960" ID="bannerImage" />
+    <asp:Image runat="server" Height="195" Width="965" ID="bannerImage" />
 </asp:Content>
 

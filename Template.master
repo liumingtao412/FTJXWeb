@@ -111,10 +111,11 @@
 		 		<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502003961" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img alt="上海公安备案" src="images/beianicon.png" style="float:left;"><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">沪公网安备 31011502003961号</p></a>
 		 	</div>
 		</div>
+        <%--CNZZ站长统计代码--%>
         <div style="width:965px; text-align:center">
 			<script src="http://s9.cnzz.com/stat.php?id=5410473&web_id=5410473&show=pic1" language="JavaScript"></script>
         </div>
-
+        <%-- end - CNZZ站长统计代码--%>
 	</div>
 	</form>
     <div style="display:none">藤仓气缸,日本藤仓气缸,低摩擦气缸,Fujikura气缸,韩国SEBA,SEBA流量计,SEBA阀门,精密减压阀,电空变换器</div>
@@ -145,7 +146,6 @@
 		<script type="text/javascript" src="lineservice/js/jquery-1.3.2.min.js"></script>
 		<script type="text/javascript" src="lineservice/js/script.js"></script>
 	</div>
-
    <%-- end - qq在线客服代码--%>
 
     <asp:ContentPlaceHolder ID="ScriptContentPlaceHolder" runat="server"></asp:ContentPlaceHolder>
