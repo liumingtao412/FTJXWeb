@@ -136,7 +136,8 @@
     //地图控件添加函数：
     function addMapControl(){
         //向地图中添加缩放控件
-	var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+        //type:BMAP_NAVIGATION_CONTROL_LARGE改成0
+	var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:0});
 	map.addControl(ctrl_nav);
         //向地图中添加缩略图控件
 	var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
