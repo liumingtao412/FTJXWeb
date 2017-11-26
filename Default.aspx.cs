@@ -115,7 +115,7 @@ public partial class _Default : System.Web.UI.Page
                 #endregion
 
                 #region 读取最新的4条新闻
-                _sql = "SELECT TOP 4 * FROM XWTable WHERE newsDelete=false ORDER BY isTop, newsTime DESC";
+                _sql = "SELECT TOP 4 * FROM XWTable WHERE newsDelete=false AND isPublish=true ORDER BY isTop, newsTime DESC";
                 OleDbDataAdapter daForRepeator = new OleDbDataAdapter(_sql, objConnection);
                 DataTable dtForRepeator = new DataTable();
                 daForRepeator.Fill(dtForRepeator);

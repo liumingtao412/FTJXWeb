@@ -90,7 +90,7 @@ public partial class News : System.Web.UI.Page
         string strConnection = ConfigurationManager.ConnectionStrings["AccessConnectionString"].ConnectionString;
         OleDbConnection objConnection = new OleDbConnection(strConnection);
         objConnection.Open();
-        string strSQL = "SELECT TOP 120 * FROM XWTable WHERE newsDelete=false ORDER BY isTop, newsTime DESC ";
+        string strSQL = "SELECT TOP 120 * FROM XWTable WHERE newsDelete=false AND isPublish=true ORDER BY isTop, newsTime DESC ";
         OleDbDataAdapter daForRepeator = new OleDbDataAdapter(strSQL, objConnection);
         DataSet dsForRepeator = new DataSet();
         daForRepeator.Fill(dsForRepeator, "news");

@@ -17,8 +17,11 @@
                         <asp:Button ID="Button6" runat="server" Text="编辑" CommandName="doEdit" CommandArgument='<%#Eval("编号") %>'
                             OnCommand="Article_Command" />
                         <asp:Button ID="Button1" runat="server" Text="删除" OnClientClick="return confirm( '确定删除该记录? ');"
-                            CommandName="doDelete" CommandArgument='<%#Eval("编号")%>' OnCommand="Article_Command" /></ItemTemplate>
-                    <HeaderStyle Width="80px" HorizontalAlign="Center" />
+                            CommandName="doDelete" CommandArgument='<%#Eval("编号")%>' OnCommand="Article_Command" />
+                        <asp:Button ID="Button_publish" runat="server" Text='<%# Convert.ToBoolean(Eval("isPublish"))?"撤销":"发布"%>' CommandName="doPublish" CommandArgument='<%#Eval("编号") %>'
+                            OnCommand="Article_Command" />
+                    </ItemTemplate>
+                    <HeaderStyle Width="120px" HorizontalAlign="Center" />
                     <ItemStyle HorizontalAlign="Center" />
                 </asp:TemplateField>
                 <asp:TemplateField HeaderText="标题">
