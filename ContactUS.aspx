@@ -18,8 +18,8 @@
         <asp:Label ID="ContectInfLabel" runat="server"></asp:Label>
         <%--<asp:Image ID="EMapImage" runat="server" Visible="false" />--%>
          <asp:Panel ID="EMapPanel" runat="server" Width="600px" Visible="false">
-        <div style="width:593px;height:550px;border:#ccc solid 1px;" id="dituContent"></div>
-             </asp:Panel>
+            <div style="width:593px;height:550px;border:#ccc solid 1px;" id="dituContent"></div>
+         </asp:Panel>
         <asp:Panel ID="MessagePanel" runat="server" Width="125px">
             <table cellpadding="0" cellspacing="0" border="0" style="width: 680px; vertical-align: middle;"
                 runat="server">
