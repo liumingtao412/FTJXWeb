@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.14
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FTJXWeb", ".", "{1EA59016-AF60-49C2-8546-137E007882C9}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FTJXWeb", ".", "{76A0C1C7-F541-40CD-8554-95B778AE6A9E}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv2.0"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_50637"
@@ -29,8 +29,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1EA59016-AF60-49C2-8546-137E007882C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1EA59016-AF60-49C2-8546-137E007882C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76A0C1C7-F541-40CD-8554-95B778AE6A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76A0C1C7-F541-40CD-8554-95B778AE6A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
