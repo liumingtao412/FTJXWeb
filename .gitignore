@@ -31,6 +31,7 @@ $RECYCLE.BIN/
 .AppleDouble
 .LSOverride
 .vs
+.vs/
 
 # Thumbnails
 ._*
