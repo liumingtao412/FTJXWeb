@@ -11,6 +11,15 @@
 	<title>藤仓气缸 | 日本藤仓气缸 | 低摩擦气缸 | 韩国SEBA - 上海富藤机械科技有限公司</title>
      <asp:ContentPlaceHolder id="headPlaceHolder" runat="server">
     </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?a43f79f72871d6abfc94b83bb426d382";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 </head>
 <body style="BACKGROUND: url(images/bg.gif) #eeeeee repeat-y center 50%;">
 	 <form id="form1" runat="server">
