@@ -13,6 +13,9 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+*.ldb
+*.suo
+*.sln
 
 # Windows shortcuts
 *.lnk
@@ -28,6 +31,7 @@ $RECYCLE.BIN/
 .AppleDouble
 .LSOverride
 .vs
+.vs/
 
 # Thumbnails
 ._*
