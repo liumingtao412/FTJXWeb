@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/Template.master" AutoEventWireup="true"
-    CodeFile="Default.aspx.cs" Inherits="_Default" Title="藤仓气缸 | 日本藤仓气缸 | 低摩擦气缸 | 韩国SEBA - 上海富藤机械科技有限公司" %>
+    CodeFile="Default.aspx.cs" Inherits="_Default" Title="藤仓气缸 | 日本藤仓气缸 | 低摩擦气缸 - 上海富藤机械科技有限公司" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="BorderContentPlaceHolder" runat="Server">
 </asp:Content>
