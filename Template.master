@@ -4,11 +4,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1"   runat="server">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="藤仓气缸,日本藤仓气缸,低摩擦气缸,Fujikura气缸,韩国SEBA,SEBA流量计" /> 　
-	<meta name="description" content="上海富藤机械一级代理日本藤仓气缸；总代理韩国SEBA。100%正品，货期短，售前售后服务周到。联系方式：021-20255882" /> 　    　
+	<meta name="keywords" content="藤仓气缸,日本藤仓气缸,低摩擦气缸,Fujikura气缸" /> 　
+	<meta name="description" content="上海富藤机械一级代理日本藤仓气缸，100%正品，货期短，售前售后服务周到。联系方式：021-20255882" /> 　    　
 	<link rel="stylesheet" href="images/style.css" />
 	<link rel="stylesheet" type="text/css" href="lineservice/skin/red/style.css" />
-	<title>藤仓气缸 | 日本藤仓气缸 | 低摩擦气缸 | 韩国SEBA - 上海富藤机械科技有限公司</title>
+	<title>藤仓气缸 | 日本藤仓气缸 | 低摩擦气缸 - 上海富藤机械科技有限公司</title>
      <asp:ContentPlaceHolder id="headPlaceHolder" runat="server">
     </asp:ContentPlaceHolder>
     <script type="text/javascript">
