@@ -96,7 +96,7 @@
 						<div class="rnavtext">
 							<p><a href="http://www.fujikurarubber.com/">藤仓橡胶工业株式会社</a></p>
 							<p><a href="http://www.hangzhoufujikura.com/">杭州藤仓橡胶有限公司</a></p>
-							<p><a href="http://www.seba.co.kr/">韩国SEBA官方网页</a></p>
+							<%--<p><a href="http://www.seba.co.kr/">韩国SEBA官方网页</a></p>--%>
 						</div>
 
                         <div class="line"></div>
